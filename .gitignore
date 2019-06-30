@@ -1,0 +1,7 @@
+*.ipynb
+./*.ipynb
+*.log
+./*.log
+*.json
+./*.json
+config.py

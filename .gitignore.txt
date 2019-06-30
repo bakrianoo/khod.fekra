@@ -1,6 +1,0 @@
-*.ipynb
-./*.ipynb
-*.log
-./*.log
-*.json
-./*.json

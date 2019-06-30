@@ -29,3 +29,5 @@ if len(driver.find_elements_by_css_selector('#tweet-box-home-timeline')) > 0:
     for product in products:
         _ = publish_product(driver, product)
         sleep(page_load_timeout)
+
+driver.quit()

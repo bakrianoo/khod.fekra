@@ -16,3 +16,5 @@ for category in categories:
         page_url = f"{category_url}/?page={str(page)}"
         _ = get_url(page_url, driver)
         products = get_products(driver)
+
+driver.quit()
